@@ -1,0 +1,1 @@
+<view class="w-button" bindtap="onClick" style="width: {{width}};height: {{height}};line-height:{{height}};border:{{bTrue ? white : ''}};border-radius:{{br ? '50rpx' : ''}};background: {{bg}}">{{btnText}}</view>

@@ -1,0 +1,46 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.fs20 {
+  font-size: 20rpx;
+}
+
+.fs22 {
+  font-size: 22rpx;
+}
+
+.fs24 {
+  font-size: 24rpx;
+}
+
+.fs26 {
+  font-size: 26rpx;
+}
+
+.fs34 {
+  font-size: 34rpx;
+}
+
+.fs40 {
+  font-size: 40rpx;
+}
+
+.fs26 {
+  font-size: 26rpx;
+}
+
+.color_b5b5b5 {
+  color: #b5b5b5;
+}
+
+.mb50 {
+  margin-bottom: 50rpx;
+}

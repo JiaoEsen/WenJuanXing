@@ -1,0 +1,51 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="wjSet_container" style="padding-top: {{statusBarHeight+40}}px">
+  <view class="wjSet-wrapper">
+    <view class="set_wrapper">
+      <set-item isBr="true">
+        <view>
+          <switch />
+        </view>
+      </set-item>
+      <set-item itemText="记录微信用户昵称、性别、城市" isBr="true">
+        <view>
+          <switch />
+        </view>
+      </set-item>
+      <set-item itemText="每部手机只能回答一次">
+        <view>
+          <switch />
+        </view>
+      </set-item>
+    </view>
+    <view class="set_wrapper">
+      <set-item itemText="问卷外观设置">
+        <view class="set">
+          <text>未设置</text>
+          <view class="iconfont icon-jiantou"></view>
+        </view>
+      </set-item>
+    </view>
+    <view class="set_wrapper mb50">
+      <set-item itemText="开始时间" isBr="true">
+        <view class="set">
+          <text>未设置</text>
+          <view class="iconfont icon-jiantou"></view>
+        </view>
+      </set-item>
+      <set-item itemText="结束时间" isBr="true">
+        <view class="set">
+          <text>未设置</text>
+          <view class="iconfont icon-jiantou"></view>
+        </view>
+      </set-item>
+    </view>
+    <view>
+      <w-button btnText="{{btnText}}" height="85rpx"></w-button>
+    </view>
+    <view class="back_btn">
+      <w-button btnText="{{btnText1}}" types="white" height="85rpx" bindclick="onClick"></w-button>
+    </view>
+  </view>
+
+</view>

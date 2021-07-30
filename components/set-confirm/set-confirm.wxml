@@ -1,0 +1,25 @@
+<view class="set_confirm">
+  <view class="set_c_title">添加基础体型</view>
+  <view class="set_c_box">
+    <view class="set_c_item">
+      <view class="iconfont icon-shezhi"></view>
+      <text>单选题</text>
+    </view>
+    <view class="set_c_item">
+      <view class="iconfont icon-shezhi"></view>
+      <text>单选题</text>
+    </view>
+    <view class="set_c_item">
+      <view class="iconfont icon-shezhi"></view>
+      <text>单选题</text>
+    </view>
+    <view class="set_c_item">
+      <view class="iconfont icon-shezhi"></view>
+      <text>单选题</text>
+    </view>
+    <view class="set_c_item">
+      <view class="iconfont icon-shezhi"></view>
+      <text>单选题</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+.buildType_container {
+  height: 100vh;
+  background: #f2f3f5;
+}
+
+
+

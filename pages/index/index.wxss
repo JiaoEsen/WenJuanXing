@@ -1,0 +1,48 @@
+.index_container {
+  height: 100vh;
+  background: #f0f5f8;
+}
+
+.index_bg {
+  width: 100%;
+  height: 550rpx;
+  position: relative;
+}
+
+.index_bg>image {
+  position: absolute;
+  top: 85rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 503rpx;
+  height: 412rpx;
+}
+
+.index_container .index_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 24rpx;
+  color: #56575b;
+}
+
+.index_container .index_text text:nth-child(1) {
+  font-size: 40rpx;
+  color: #66676b;
+}
+
+.index_container .index_text text:nth-child(2) {
+  line-height: 50rpx;
+} 
+
+.create_btn>navigator {
+  display: block;
+  width: 666rpx;
+  height: 93rpx;
+  color: #fff;
+  margin: 30rpx auto 0;
+  line-height: 93rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  background: #1ea0f8;
+}

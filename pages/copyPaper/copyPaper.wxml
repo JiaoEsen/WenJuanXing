@@ -1,0 +1,13 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="copyPaper_container" style="padding-top: {{statusBarHeight+40}}px">
+  <view class="copyPaper_content">
+    <view class="copyPaper_info fs26">
+      <text>提示：</text>此问卷版权归se***te所有，如有涉及侵权或其他法律责任与问卷星无关
+    </view>
+    <view class="ver_code">
+      <input class="fs26" model:value="{{value}}" placeholder="请输入验证吗" type="text"/>
+      <image src="../../img/code.jpg"></image>
+    </view>
+    <w-button btnText="{{btnText}}" bindclick="onClick"></w-button>
+  </view>
+</view>

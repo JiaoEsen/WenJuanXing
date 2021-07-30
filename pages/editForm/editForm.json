@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "header": "../../components/header/header",
+    "tab-bar": "../../components/tab-bar/tab-bar",
+    "set-confirm": "../../components/set-confirm/set-confirm"
+  }
+}

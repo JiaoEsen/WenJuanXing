@@ -1,0 +1,6 @@
+<view class="set-item" style="border-bottom: {{border}}">
+  <text>{{itemText}}</text>
+  <view>
+    <slot></slot>
+  </view>
+</view>

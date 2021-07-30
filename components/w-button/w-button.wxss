@@ -1,0 +1,13 @@
+/* components/button/w-button.wxss */
+.w-button {
+  display: block;
+  width: 666rpx;
+  height: 93rpx;
+  color: #fff;
+  margin: 0 auto;
+  line-height: 93rpx;
+  text-align: center;
+  border-radius: 10rpx;
+
+  background: #1ea0f8;
+}

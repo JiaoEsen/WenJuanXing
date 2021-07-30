@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "header": "../../components/header/header",
+    "set-item": "../../components/set-item/set-item",
+    "w-button": "../../components/w-button/w-button"
+
+  }
+}

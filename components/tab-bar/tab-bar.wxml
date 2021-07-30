@@ -1,0 +1,18 @@
+<view class="tabBar-container" >
+  <view data-num="a" bindtap="click">
+    <view class="iconfont icon-jia"></view>
+    <text>题目</text>
+  </view>
+  <view data-num="b" bindtap="click">
+    <view class="iconfont icon-shezhi"></view>
+    <text>设置</text>
+  </view>
+  <view data-num="c" bindtap="click">
+    <view class="iconfont icon-yulan"></view>
+    <text>预览</text>
+  </view>
+  <view data-num="d" bindtap="click">
+    <view class="iconfont icon-baocun"></view>
+    <text>保存</text>
+  </view>
+</view>

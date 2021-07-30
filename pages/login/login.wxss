@@ -1,0 +1,99 @@
+/* pages/login/login.wxss */
+@import '../../font/iconfont.wxss';
+.login_bg {
+  width: 100%;
+}
+
+.login_bg image {
+  width: 100%;
+  height: 305rpx;
+}
+
+.login_wrapper {
+  padding: 0 62rpx;
+}
+
+.login_btn {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  line-height: 100rpx;
+  /* background: pink; */
+  border-bottom: 1rpx solid #d2d2d2;
+  box-sizing: border-box;
+}
+
+
+.login_btn view {
+  position: relative;
+  width: calc(100% / 2);
+  font-size: 34rpx;
+  text-align: center;
+  color: #777777;
+}
+
+.login_btn .active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1rpx;
+  background: #167ec4;
+  /* display: none; */
+}
+
+
+.wj {
+  position: absolute;
+  right: 0;
+  font-size: 32rpx;
+  color: #0787f1;
+}
+
+.label_view .iconfont {
+  color: #777777;
+  margin-right: 30rpx;
+}
+
+.login_car_box {
+  position: relative;
+  width: 100%;
+}
+
+.login_car {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.label_view {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 105rpx;
+  font-size: 32rpx;
+  border-bottom: 1rpx solid #d2d2d2;
+}
+
+.login_q {
+  margin-top: 95rpx;
+}
+
+.xy {
+  font-size: 22rpx;
+  text-align: center;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6d6c71;
+}
+.xy radio {
+  transform: scale(0.6);
+}
+
+.xy text {
+  color: #006ebb;
+}

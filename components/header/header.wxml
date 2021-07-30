@@ -1,0 +1,4 @@
+<view class="header" style="padding-top: {{statusBarHeight}}px">
+  <view class="header-back iconfont icon-fanhui1" bindtap="onClick" hidden="{{isBack}}"></view>
+  <view class="header-title">{{headerTitle}}</view>
+</view>

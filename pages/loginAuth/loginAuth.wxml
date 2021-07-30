@@ -1,0 +1,48 @@
+<header isBack="true" headerTitle="问卷星_不止问卷调查/在线考试"></header>
+<view class="loginAuth_container">
+  <view class="login_Auth_X {{isK ? 'animate' : 'animate1'}}" >
+    <view class="login_Auth_wrapper">
+      <image class="logo_img" src="../../img/logo.jpg"></image>
+      <view class="btns_wrapper">
+        <view class="btns_btn">
+          <w-button btnText="微信登录" width="626rpx" bg="#1bad1c" bindclick="onGetUserInfo"></w-button>
+        </view>
+        <view class="btns_btn">
+          <w-button btnText="问卷星账号登录" width="626rpx" bg="#20a1fd" bindclick="onLogin"></w-button>
+        </view>
+        <view class="ys_js">
+          <text bindtap="kAni">应用介绍</text>
+          <image class="ani_bg" animation="{{ain}}" src="../../img/b.jpg"></image>
+        </view>
+      </view>
+    </view>
+    <view class="login_Auth_wrapper" bindtouchstart="touchStart" bindtouchend="touchend">
+      <image class="w_bg" src="/img/1212321.jpg"></image>
+      <view class="l_text">问卷调查，从“星”开始</view>
+      <view class="l_p">
+        完成集成微信群发、红包抽奖、问卷密码等强大功能，帮您轻松完成市场调查、社会调查、满意度调查等各类在线问卷调查
+      </view>
+      <view class="l_r">
+        <view>
+          <radio checked></radio>轻松导入问卷
+        </view>
+        <view>
+          <radio checked></radio>轻松导入问卷
+        </view>
+        <view>
+          <radio checked></radio>轻松导入问卷
+        </view>
+        <view>
+          <radio checked></radio>轻松导入问卷
+        </view>
+        <view>
+          <radio checked></radio>轻松导入问卷
+        </view>
+      </view>
+      <view class="b_btns">
+        <w-button class="b_btns_i" btnText="问卷调查介绍" width="240rpx" height="60rpx"></w-button>
+        <w-button class="b_btns_i" btnText="问卷调查介绍" width="240rpx" height="60rpx" types="white"></w-button>
+      </view>
+    </view>
+  </view>
+</view>

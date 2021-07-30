@@ -1,0 +1,37 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="login_container" style="padding-top: {{statusBarHeight+40}}px">
+  <view class="login_bg">
+    <image src="../../img/login_bg.jpg"></image>
+  </view>
+  <view class="login_wrapper">
+    <view class="login_btn" bindtap="onTab">
+      <view data-id="0" class="{{currentIndex === 0 ? 'active' : ''}}">登录</view>
+      <view data-id="1" class="{{currentIndex === 1 ? 'active' : ''}}">注册</view>
+    </view>
+    <view class="login_car_box">
+      <view class="login_car">
+        <form>
+          <label>
+            <view class="label_view">
+              <view class="iconfont icon-shouji"></view>
+              <input model:value="{{account}}" type="text" placeholder="手机号/邮箱/用户" />
+            </view>
+          </label>
+          <label>
+            <view class="label_view">
+              <view class="iconfont icon-suotou"></view>
+              <input model:value="{{pwd}}" type="password" placeholder="手机号/邮箱/用户" />
+              <text class="wj">忘记密码？</text>
+            </view>
+          </label>
+          <view class="login_q">
+            <w-button btnText="登录" br="true" bindclick="login" width="100%"></w-button>
+          </view>
+          <view class="xy">
+            <radio-group><radio></radio></radio-group>我已同意问卷星<text>《用户服务协议》</text>和<text>《隐私条款》</text>
+          </view>
+        </form>
+      </view>
+    </view>
+  </view>
+</view>

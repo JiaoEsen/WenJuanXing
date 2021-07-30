@@ -1,0 +1,27 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="create_form" style="padding-top: {{statusBarHeight+40}}px">
+  <view class="form_search">
+    <view class="form_search_wrapper">
+      <view class="form_search_inp fs26">
+        <view class="iconfont icon-sousuo"></view>
+        <input type="text" placeholder="搜索其他用户公开的表单" />
+      </view>
+    </view>
+  </view>
+
+  <view class="top_bar">
+    <view class="fs24" wx:for="{{topBarlist}}" wx:key="*this">{{item}}</view>
+  </view>
+
+  <scroll-view class="scroll_view">
+    <view class="table_wrapper">
+      <view class="table_item" wx:for="{{formList}}" wx:key="id" data-c="{{item}}" bindtap="onClick">
+        <view class="table_item_top">
+          <image src="../../img/123.jpg"></image>
+          <text class="fs24">{{item.name}}</text>
+        </view>
+        <view class="topic_num fs20">共{{item.num}}题</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

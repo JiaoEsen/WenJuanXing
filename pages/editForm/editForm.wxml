@@ -1,0 +1,129 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="header_a" style="padding-top: {{statusBarHeight}}px" wx:if="{{isAddClass}}">
+  <view class="header-back iconfont icon-fanhui1" bindtap="backAni"></view>
+  <view class="header-title">{{headerTitle}}</view>
+</view>
+<view class="eidtForm_container" style="padding-top: {{statusBarHeight+40}}px">
+  <scroll-view scroll-y="true" class="scroll_view">
+    <view class="editForm_header">
+      <view class="ed_h_t">
+        <text>聚会报名表</text>
+        <text>相聚不易，请大家积极参加我们的聚会，并提出建议！</text>
+      </view>
+      <view class="edit_btn">
+        <view class="iconfont icon-ziyuan168"></view>
+        <text>编辑</text>
+      </view>
+    </view>
+    <view class="form_wrapper">
+        <form>
+          <label>
+            <view class="fs26"><text class="x">*</text>1. 您的姓名：</view>
+            <view class="inp_box">
+              <input name="name" type="text" />
+            </view>
+          </label>
+          <label>
+            <view class="fs26"><text class="x">*</text>1. 请输入您的手机号：</view>
+            <view class="inp_box">
+              <input name="phone" type="text" />
+            </view>
+          </label>
+          <label>
+            <view class="fs26"><text class="x">*</text>3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26"><text class="x">*</text>4. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26"><text class="x">*</text>3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26"><text class="x">*</text>3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+        </form>
+      </view>
+  </scroll-view>
+  <view class="set_confirm_box {{isAddClass ? 'animation' : ''}} {{ !isAddClass ? 'animation1' : '' }}">
+    <set-confirm></set-confirm>
+    <set-confirm></set-confirm>
+    <set-confirm></set-confirm>
+  </view>
+  <tab-bar bindclick="onClick"></tab-bar>
+</view>

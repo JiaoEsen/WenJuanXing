@@ -1,0 +1,104 @@
+/* pages/preview/preview.wxss */
+/* pages/partyForm/partyForm.wxss */
+.partyForm_container {
+
+}
+
+.partyForm_title {
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #1b9dfb;
+}
+
+.scroll_view {
+  height: calc(100vh - 100rpx);
+  overflow: hidden;
+}
+
+.scroll_view .scroll_view_wrapper {
+  padding-bottom: 130rpx;
+}
+
+.partyForm_pic {
+  padding: 0 40rpx;
+}
+
+.partyForm_pic text {
+  display: block;
+  font-size: 28rpx;
+  text-indent: 40rpx;
+  padding-bottom: 40rpx;
+  border-bottom: 1rpx dashed #c2c2c2;
+}
+
+.form_wrapper {
+  padding: 0 40rpx;
+  margin-top: 30rpx;
+}
+
+.form_wrapper form {
+  display: block;
+}
+
+.form_wrapper label {
+  display: block;
+  margin-bottom: 55rpx;
+}
+
+.inp_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  margin-top: 25rpx;
+  /* align-items: center; */
+}
+
+.checkbox_item {
+  width: 100%;
+  margin-left: 25rpx;
+}
+
+.checkbox_item label {
+  margin-bottom: 0rpx;
+  margin-top: 25rpx;
+}
+
+checkbox .wx-checkbox-input  {
+  width: 20rpx;
+  height: 20rpx;
+  /* transform: scale(0.6, 0.6); */
+}
+
+.inp_box input {
+  /* display: block; */
+  width: 640rpx;
+  height: 57rpx;
+  border: 1px solid #b4b4b4;
+}
+
+.checkbox {
+
+}
+
+.copy_wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10rpx 0 45rpx;
+  background: #fff;
+}
+
+.copy_wrapper>view {
+    display: block;
+    width: 666rpx;
+    height: 93rpx;
+    color: #fff;
+    margin: 0 auto;
+    line-height: 93rpx;
+    text-align: center;
+    border-radius: 10rpx;
+    background: #1ea0f8;
+}

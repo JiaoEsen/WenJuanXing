@@ -1,0 +1,150 @@
+/* pages/loginAuth/loginAuth.wxss */
+.header .header-title {
+  margin: 0;
+}
+
+.loginAuth_container {
+  height: calc(100vh - 120rpx);
+  margin-top: 120rpx;
+  overflow: hidden;
+  /* background: pink; */
+}
+
+.login_Auth_wrapper {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 120rpx);
+
+}
+
+.login_Auth_wrapper:nth-child(1){
+  background: url('http://www.jiaoyisen.com/upload/2021/07/wjx%E5%89%AF%E6%9C%AC-f3ce80e35a824bcfa2d82f332e83d078.jpg');
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+.logo_img {
+  display: block;
+  width: 230rpx;
+  height: 90rpx;
+  margin: 0 auto;
+}
+
+.btns_wrapper {
+  position: absolute;
+  bottom: 20rpx;
+  left: 0;
+  width: 100%;
+}
+
+.btns_btn {
+  width: 666rpx;
+  margin: 0 auto;
+}
+
+.btns_btn:nth-child(2) {
+  margin-top: 40rpx;
+}
+
+.ys_js {
+  text-align: center;
+  font-size: 22rpx;
+  color: #ffffff;
+  opacity: .5;
+}
+
+.ys_js text {
+  display: block;
+  line-height: 70rpx;
+}
+
+.w_bg {
+  display: block;
+  width: 100%;
+  height: 467rpx;
+  margin: 0 auto;
+}
+
+.l_text {
+  text-align: center;
+  line-height: 95rpx;
+  font-size: 36rpx;
+  color: #0072c1;
+}
+
+.l_p {
+  padding: 0 80rpx;
+  font-size: 22rpx;
+}
+
+.l_r {
+  padding: 0 130rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.l_r view {
+  width: calc(100% / 2);
+  font-size: 22rpx;
+}
+
+radio {
+  transform: scale(.6);
+}
+
+.b_btns {
+  width: 100%;
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.b_btns .b_btns_i {
+  margin: 0 20rpx;
+}
+
+.ani_bg {
+  width: 39rpx;
+  height: 33rpx;
+}
+
+.ani_jt {
+  animation: jt .5s;
+}
+
+.animate {
+  animation: anik .5s forwards;
+}
+
+.animate1 {
+  animation: anie .5s forwards;
+}
+
+@keyframes anik {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+
+
+@keyframes anie {
+  from {
+    transform: translateY(-50%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes jt {
+  from {
+    transform: translateY(0deg);
+  }
+  to {
+    transform: translateY(15deg);
+  }
+}
+

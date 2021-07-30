@@ -1,0 +1,6 @@
+.set-item {
+  height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

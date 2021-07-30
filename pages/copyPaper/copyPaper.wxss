@@ -1,0 +1,35 @@
+/* pages/copyPaper/copyPaper.wxss */
+.copyPaper_container {
+  height: 100vh;
+  background: #f3f4f6;
+}
+
+.copyPaper_content {
+  padding: 45rpx 50rpx;
+  /* background: skyblue; */
+}
+
+.copyPaper_content .copyPaper_info text {
+  font-weight: bold;
+  color: #f80000;
+}
+
+.ver_code {
+  display: flex;
+  align-items: center;
+  margin: 35rpx 0;
+}
+
+.ver_code input {
+  box-sizing: border-box;
+  width: 320rpx;
+  height: 60rpx;
+  border: 1rpx solid #c1c1c1;
+  padding-left: 10rpx;
+}
+
+.ver_code image {
+  width: 200rpx;
+  height: 60rpx;
+  margin-left: 5rpx;
+}

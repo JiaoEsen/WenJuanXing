@@ -1,0 +1,4 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="buildType_container" style="padding-top: {{statusBarHeight+40}}px">
+  <type-item list="{{typeList}}" bindclick="onClick"></type-item>
+</view>

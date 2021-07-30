@@ -1,0 +1,27 @@
+/* pages/wjSet/wjSet.wxss */
+@import '../../font/iconfont.wxss';
+.wjSet_container {
+  height: calc(100vh - 120rpx);
+  background: #f3f4f6;
+}
+.wjSet-wrapper {
+  padding: 36rpx 0;
+  font-size: 28rpx;
+}
+
+.wjSet-wrapper .back_btn {
+  margin-top: 40rpx;
+}
+
+.set {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  color: #878787;
+}
+
+.set_wrapper {
+  margin-top: 20rpx;
+  padding: 0 36rpx;
+  background: #fff;
+}

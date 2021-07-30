@@ -1,0 +1,14 @@
+<header></header>
+<view class="index_container" style="padding-top: {{statusBarHeight+40}}px">
+  <!-- 背景 -->
+  <view class="index_bg">
+    <image src="../../img/index_bg.jpg"></image>
+  </view>
+  <view class="index_text">
+    <text>创建问卷，三步即可搞定</text>
+    <text>支持调查、考试、投票、表单</text>
+  </view>
+  <view class="create_btn">
+    <navigator open-type="navigate" url="/pages/buildType/buildType" class="fs34">创建新问卷</navigator>
+  </view>
+</view>

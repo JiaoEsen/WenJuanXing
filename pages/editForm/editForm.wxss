@@ -1,0 +1,167 @@
+/* pages/editForm/editForm.wxss */
+@import '../../font/iconfont.wxss';
+
+/* .header_a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+} */
+
+.header_a {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80rpx;
+  padding: 0 27rpx;
+  font-size: 27rpx;
+  background: #ffffff;
+  z-index: 100;
+}
+.header_a .header-title {
+  margin-left: 26rpx;
+}
+
+.eidtForm_container {
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll_view {
+  height: calc(100vh - 100rpx);
+  overflow: hidden;
+}
+
+.editForm_header {
+  border: 1rpx dashed #0077d1;
+}
+.ed_h_t {
+  padding: 0 25rpx;
+}
+
+.ed_h_t text {
+  display: block;
+}
+
+.ed_h_t text:nth-child(1) {
+  font-size: 36rpx;
+  font-weight: bold;
+  padding: 20rpx 0;
+}
+
+.ed_h_t text:nth-child(2) {
+  width: 100%;
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.edit_btn {
+  margin-top: 40rpx;
+  height: 115rpx;
+  border-top: 1rpx solid #e3e3e2;
+  text-align: center;
+  font-size: 24rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #a8a7a7;
+  background: #fafbff;
+}
+
+.edit_btn .iconfont {
+  font-size: 40rpx;
+}
+
+.form_wrapper {
+  padding: 0 40rpx;
+  margin-top: 30rpx;
+}
+
+.form_wrapper form {
+  display: block;
+}
+
+.form_wrapper label {
+  display: block;
+  margin-bottom: 55rpx;
+}
+
+.inp_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  /* justify-content: space-between; */
+  margin-top: 25rpx;
+  /* align-items: center; */
+}
+
+.checkbox_item {
+  width: 100%;
+  margin-left: 25rpx;
+}
+
+.checkbox_item label {
+  margin-bottom: 0rpx;
+  margin-top: 25rpx;
+}
+
+checkbox .wx-checkbox-input  {
+  width: 20rpx;
+  height: 20rpx;
+  /* transform: scale(0.6, 0.6); */
+}
+
+.inp_box input {
+  /* display: block; */
+  width: 640rpx;
+  height: 57rpx;
+  border: 1px solid #b4b4b4;
+}
+
+.x {
+  color: red;
+  margin-right: 10rpx;
+}
+
+.set_confirm_box {
+  position: absolute;
+  width: 100%;
+  height: calc(100vh - 100rpx);
+  /* bottom: -100vh; */
+  /* left: 0; */
+  background: #f3f4f6;
+  z-index: 10;
+}
+
+.animation {
+  animation: ani .5s forwards;
+} 
+
+.animation1 {
+  animation: ani1 .5s forwards;
+}
+
+
+@keyframes ani {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes ani1 {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

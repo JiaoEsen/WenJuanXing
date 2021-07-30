@@ -1,0 +1,7 @@
+<view class="type_container">
+  <view class="type_wrapper" wx:for="{{list}}" wx:key="id" data-obj="{{item}}" bindtap="click">
+    <image class="type_img" src="{{item.img}}"></image>
+    <text class="type_into_text fs26">{{item.name}}</text>
+    <text class="fs22 color_b5b5b5">{{item.pic}}</text>
+  </view>
+</view>

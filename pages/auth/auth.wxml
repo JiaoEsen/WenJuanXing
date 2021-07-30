@@ -1,0 +1,30 @@
+<button open-type="getUserInfo" bindgetuserinfo="getuserinfo">获取用户信息</button>
+<button bindtap="getInfo">获取用户信息</button>
+<button bindtap="getuser">getuserinfo</button>
+<button bindtap="getloaction">获取地理位置</button>
+<button bindtap="getloactionSetting">打开设置 API</button>
+{{location.longitude}}
+
+<map 
+  id="myMap" 
+  style="width: 100%; height: 300px;"
+  longitude="{{longitude}}" 
+  latitude="{{latitude}}"
+  markers="{{markers}}"
+  min-scale="3"
+  max-scale="30"
+  show-compass="true"
+  show-scale="true"
+  enable-building="true"
+  enable-traffic="true"
+  polyline="{{polyline}}"
+></map>
+
+<!-- markers="{{markers}}" -->
+  <!-- covers="{{covers}}" -->
+<!-- 
+    鸡蛋炒饼 x5
+    外婆菜炒鸡蛋盖饭
+    蒜苔肉丝盖饭
+    尖椒豆皮盖饭
+ -->

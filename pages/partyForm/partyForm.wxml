@@ -1,0 +1,118 @@
+<header headerTitle="{{headerTitle}}"></header>
+<view class="partyForm_container" style="padding-top: {{statusBarHeight+40}}px">
+  <scroll-view scroll-y="true" class="scroll_view">
+    <view class="scroll_view_wrapper">
+      <view class="partyForm_title">聚会报名表</view>
+      <view class="partyForm_pic">
+        <text>相聚不易，请大家积极参加我们的聚会，并提出建议！</text>
+      </view>
+      <view class="form_wrapper">
+        <form>
+          <label>
+            <view class="fs26">1. 您的姓名：</view>
+            <view class="inp_box">
+              <input name="name" type="text"/>
+            </view>
+          </label>
+          <label>
+            <view class="fs26">1. 请输入您的手机号：</view>
+            <view class="inp_box">
+              <input name="phone" type="text"/>
+            </view>
+          </label>
+          <label>
+            <view class="fs26">3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26">4. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26">3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+          <label>
+            <view class="fs26">3. 选择参加聚会的最方便时间</view>
+            <view class="checkbox_item">
+              <checkbox-group class="checkbox fs26">
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周六</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">周日</checkbox>
+                  </view>
+                </label>
+                <label>
+                  <view>
+                    <checkbox class="checkbox_c">每天都可以</checkbox>
+                  </view>
+                </label>
+              </checkbox-group>
+            </view>
+          </label>
+        </form>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="copy_wrapper">
+    <view bindtap="onClick">复制此问卷</view>
+  </view>
+</view>
